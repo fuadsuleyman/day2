@@ -1,0 +1,27 @@
+1. Pythonun hazır funksiyalarını override etmək üçün nədən istifadə olunur?
+cavab: Python-da hazir funqsiyalarin arxa fonunda dunder methodlar dayanir, bu metotlari
+deyismekle, hazir funqsiyalarin verdiyi neticeleri de deyise bilirik
+
+
+2. Statik metodun normal metoddan fərqi nədir? Statik metodu yazmaq üçün nədən istifadə olunur?
+cavab: static method ilk parametr olaraq cls ve ya self qebul etmir, statik metodun
+klasla ve ya klas deyisenleri ile hecbir baglantisi ve ya tesir gucu yoxdu, statik method
+esasen komekci ishleri(utility) gormek ucun yaradilir.
+
+
+3. Absract klas nədir və nə üçün istifadə olunur.
+cavab: Abstract klasdan klas instance(obyekt) yaratmaq olmur, Abstrakt klasdan varislik
+alan klaslarin obyektleri mutleq Abstrakt klasin methodlarini istifade ve ya override etmelidi.
+Esasen child klaslarda mutleq olmasini istediyimiz methodlar varsa Abstrakt yaradib ondan
+varis child klaslar yaradiriq.
+
+4. Bu proyektdə Abstrakt klas istifadə edərək nə edə bilərdik?
+cavab: bu proyektde meselcun Electronic klasini Abstrakt klas etmek olardi ve turn_on()
+ve turn_off() methodlari yazib, child klaslarda mutleq sekilde istifade ederik. 
+
+5. Decorator nədir və nə üçün istifadə olunur?
+cavab: dekorator funksiyadır, hansı ki, digər funqsiyaların kodlarına birbaşa müdaxilə
+etmədən onları öz əhatəsinə alaraq, onların funksionallığını artırır.
+dekoratorlar haqqinda bir muddet evvel meqale yazmisdim(basqa meqalelerden tercume),
+amma publish etmemisdim))
+https://medium.com/@official.fuadsuleymanov/python-da-dekaratorlar-decarators-4575c29843ca
